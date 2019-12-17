@@ -2,9 +2,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello</h1>
-        <Random></Random>
-        <NumPicker></NumPicker>
+        <Hello to="Ringo" from="Paul"></Hello>
+        <Hello to="Cher" from="Sonny"></Hello>
       </div>
     );
   }
