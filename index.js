@@ -3,8 +3,6 @@ class Hello extends React.Component {
 		return (
 			<div>
 				<h1>Hello there!</h1>
-				<h1>Hello there!</h1>
-				<h1>Hello there!</h1>
 			</div>
 		);
 	}
