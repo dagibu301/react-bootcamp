@@ -3,7 +3,7 @@ function getMood() {
   return moods[Math.floor(Math.random() * moods.length)];
 }
 
-class JSXDemo extends React.Component {
+class Random extends React.Component {
   render() {
     return (
       <div>
@@ -13,4 +13,4 @@ class JSXDemo extends React.Component {
   }
 }
 
-//ReactDOM.render(<JSXDemo />, document.getElementById("root"));
+
